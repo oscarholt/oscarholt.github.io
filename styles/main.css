@@ -25,19 +25,38 @@ h1 {
 }
 
 nav {
-  display: inline-block;
+  display: inline;
   float: right;
-  margin: 40px 40px 0px 0px;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  float:left;
+}
+
+#header {
+  background-color: #ffffff;
 }
 
 #preview {
-  width:50%;
-  margin: auto;
-  padding: 10px;
+  width:48%;
+  margin: 100px auto 50px auto;
+  padding:0px;
+  background-color: #ffffff;
+
+}
+
+#preview-image {
+  width:300px;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #footer {
   width:50%;
   margin: auto;
   padding: 10px;
+  display: inline-block;
 }
