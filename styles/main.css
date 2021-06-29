@@ -18,3 +18,26 @@ body{
     background-position: 0 0 , 24px 24px;
 
 }
+
+h1 {
+  display: inline-block;
+  margin: 20px 0px 0px 20px;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  margin: 40px 40px 0px 0px;
+}
+
+#preview {
+  width:50%;
+  margin: auto;
+  padding: 10px;
+}
+
+#footer {
+  width:50%;
+  margin: auto;
+  padding: 10px;
+}
