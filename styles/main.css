@@ -23,6 +23,26 @@ h1 {
   font-family: 'Spartan', sans-serif;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
 nav {
   margin: 20px;
   float:right;
@@ -34,12 +54,13 @@ nav {
 nav a {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-weight:500
+  font-weight:500;
 }
 
 a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  text-decoration:none;
 }
 
 img {
@@ -57,6 +78,8 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  padding: 10px;
+  color: black;
 }
 
 .blog-preview-middle {
@@ -78,7 +101,7 @@ img {
 }
 
 #preview {
-  margin: 200px auto 100px auto;
+  margin: 200px auto 50px auto;
   padding: 20px 40px;
   width: fit-content;
   display: flex;
