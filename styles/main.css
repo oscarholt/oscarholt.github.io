@@ -33,6 +33,7 @@ h2 {
   color: black;
   text-align: center;
   padding-bottom: 10px;
+  display:block;
 }
 
 h3 {
@@ -46,12 +47,14 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: black;
+  display:block;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: black;
+  display:inline-block;
 }
 
 nav {
@@ -78,6 +81,12 @@ img {
   display: block;
   float: left;
   padding: 0px;
+}
+
+.blog-img {
+  display:flex;
+  width:200px;
+  margin:30px auto;
 }
 
 .blog-preview {
