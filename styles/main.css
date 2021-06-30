@@ -53,7 +53,7 @@ img {
   float:left;
   width:300px;
   height: 500px;
-  background-color: gray;
+  background-color: #F3F9FF;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -61,6 +61,7 @@ img {
 
 .blog-preview-middle {
   margin: 10px 40px;
+  background-color: #FFF6F9;
 }
 
 #header {
