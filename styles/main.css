@@ -1,5 +1,6 @@
 body{
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     background-color: #e6f2ff;
     background-size: 48px 48px;
     background-image: radial-gradient(
@@ -29,6 +30,10 @@ nav {
   right: 50px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 img {
   display: block;
   float:left;
@@ -37,21 +42,19 @@ img {
 
 #header {
 
-  border: 5px solid #FFFF00;
   margin: 0px;
   background-color: #ffffff;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 10%;
+  height: 75px;
 
 }
 
 #preview {
   margin: 200px auto 100px auto;
   width: fit-content;
-  border: 5px solid #FFFF00;
   display: flex;
   background-color: #ffffff;
 }
@@ -59,7 +62,6 @@ img {
 #footer {
 
   width: 33%;
-  border: 5px solid #FFFF00;
   padding: 10px;
   display: block;
   margin: 0px auto;
@@ -70,4 +72,13 @@ img {
   width:300px;
   height: 500px;
   margin: 0px;
+}
+
+.btn {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #e6f2ff, #ffcce0) 1;
+  border-radius: 25px;
+  padding: 5px 20px;
+  margin: 0px 30px;
 }
