@@ -79,13 +79,12 @@ a {
 
 img {
   display: block;
-  float: left;
   padding: 0px;
 }
 
 .blog-img {
-  display:flex;
-  width:200px;
+  display:block;
+  width:500px;
   margin:30px auto;
 }
 
@@ -154,7 +153,7 @@ img {
 
 #blog-content {
   width: 1000px;
-  height: 800px;
+  min-height: 800px;
   margin: 200px auto 50px auto;
   padding: 20px 40px;
   display: block;
