@@ -27,6 +27,64 @@
     <h2 class="blog-h2">Problem Solving</h2>
     <h3 class="blog-h3">16/07/2021</h3>
 
+    <p>I got blocked on a problem where I needed to write a function that would
+      basically loop through an array and find an object in it that contained a
+      certain property. The issue was I couldnt understand why when my function
+      was given an undefined object (an empty array) my function was not handling it
+      properly and the console kept telling me I had the wrong output when I was
+      sure I was handling it correctly. </p>
+
+    <p>It came down to using a mixture of pseudocode and googling to look at other
+      ways functions handled the undefined object. First by using pseudocode I realised
+      that my function should indeed handle undefined objects, I could also see this
+      by console logging the objects that were put into my function in the tests
+      and it showed that two of them were undefined. After googling ways to handle
+      undefined objects in javascript I saw a piece of code that returned 0 as a
+      way to break the loop in the function.</p>
+
+    <p>After trying this I realised that I had
+      to return 0 when the object was undefined even though this didn't really make
+      sense to me from a development perspective because the function was returning
+      the address that the property was in, and returning 0 as an address could be
+      confusing rather than just saying "You passed in an array with nothing in it".
+    </p>
+
+    <p>
+      During the process I felt a frustrated because I couldn't seem to find the
+      reason my code wasn't working despite it passing all of the other tests.
+      Once I realised the answer I felt relieved and also a little bit foolish that
+      I didn't try something so simple earlier.</p>
+
+    <p>
+      I guess I realised that generally I always look for the most potentially
+      complicated problems instead of starting with the easiest fixes first. This
+      has taught me to try to work from the ground up in debugging rather than starting
+      at the worst case scenario. This would be a lot more time efficient and eliminates
+      difficulties like mine where you get something simple wrong but spend more time
+      than needed to figure it out.</p>
+
+    <p>A problem I solved in an elegant way was a problem where I had to write a
+      function to capitalise the first letter of every word in a string. I solved
+      it by googling and experimenting with the different built in javascript methods.</p>
+
+    <p>My solution meant that all the code was in a return statement which was
+      quite efficient and I was pleased that through my understanding I could condense
+      what seemed initially like a multi-step process into one line of code that
+      was still readable but also very compact. I returned the string which was
+      put into lowercase and split up into an array by the space (" ") character.
+      I then used a map to take every string in this array, replace the first character
+      with a capitalised version and add the rest of the string onto it. Finally I
+      rejoined the strings after they had all been mapped with a space in between.
+      Here is the final piece of code I wrote:</p>
+
+    <p>return str.toLowerCase().split(' ').map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');</p>
+
+    <p>This made me feel like I had a solid understanding of the material so I was
+      pretty happy afterwards and feeling like I had learnt the content well. I
+      learnt that creating elegant solutions is all about having a deeper understanding
+      of the components to that solution so that you can use these components together
+      much more effectively and efficiently.</p>
+
   </div>
 
   <div id="footer">
