@@ -127,6 +127,16 @@ img {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.17);
 }
 
+#preview-blogs {
+  margin: 200px auto 50px auto;
+  padding: 20px 40px;
+  width: fit-content;
+  min-width: 1040px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.17);
+}
+
 #footer {
   width: 33%;
   padding: 10px;
@@ -160,4 +170,8 @@ img {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.17);
+}
+
+.blog-link {
+  display:block;
 }
