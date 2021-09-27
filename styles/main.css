@@ -181,3 +181,19 @@ img {
     background-color:green;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  #preview {
+    display: inline-block;
+    width: 50%;
+  }
+  nav {
+    display:inline-block;
+    float:none;
+    position:static;
+  }
+  #header {
+    display: inline-block;
+    height: fit-content;
+  }
+}
