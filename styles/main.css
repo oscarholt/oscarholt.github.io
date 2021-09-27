@@ -175,3 +175,9 @@ img {
 .blog-link {
   display:block;
 }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color:green;
+  }
+}
